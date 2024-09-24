@@ -1,1 +1,19 @@
-
+<html>
+<head>
+  <title>Colores y fuentes</title>
+</head>
+<body>
+  <h1>PRIMER PARRAFO</h1>
+<p>
+Este es el primer parrafo
+</p>
+  <h2>SEGUNDO PARRAFO</h2>
+<p>
+Este es el segundo parrafo
+</p>
+ <h3>TERCER PARRAFO</h3>
+<p>
+Este es el tercer parrafo
+</p>
+</body>
+</html>

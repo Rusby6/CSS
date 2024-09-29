@@ -1,24 +1,34 @@
-<html 
 <head>
     <title>Modelo de Caja en CSS</title>
     <style>
+        /* Estilo del cuadro */
         .cuadro {
             width: 350px;                
             height: 200px;               
-            padding: 20px solid black;               /* Relleno del cuadro */
+            padding: 20px;               /* Relleno del cuadro */
             border: 15px solid blue;      /* Borde azul */
-            margin: 30px solid black;                /* Margen */
-            background-color: orange; /* Color de fondo (background) */
-              
+            margin: 30px;                /* Margen */
+            background-color: white; /* Color de fondo (background) */
+            box-sizing: border-box;       /* Incluye padding y borde en el tamaño total */
         }
-       
-    
+
+        /* Color de fondo del contenido */
+        .contenido {
+            background-color: orange; /* Color de fondo del contenido */
+            width: 100%;              /* Ancho del contenido */
+            height: 100%;             /* Alto del contenido */
+            box-sizing: border-box;    /* Incluye padding y borde en el tamaño total */
+        }
     </style>
 </head>
 <body>
- <div class= "cuadro">
-        <div/>
 
+    <div class="cuadro">
+        <div class="contenido">
+            Contenido aquí
+        </div>
+    </div>
 
 </body>
 </html>
+

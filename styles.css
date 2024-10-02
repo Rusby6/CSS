@@ -1,0 +1,32 @@
+#titulo {
+    font-size: 32px;
+    color: #4A90E2; /* Color azul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos comunes para los párrafos usando la clase .texto */
+.texto {
+    font-size: 16px;
+    color: #333; /* Gris oscuro */
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Estilos para el botón usando tanto la clase .boton como el id #botonEnviar */
+#botonEnviar.boton {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: 2px solid #28a745;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+#botonEnviar.boton:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+    border-color: #1e7e34;
+}

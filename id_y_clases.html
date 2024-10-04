@@ -15,12 +15,15 @@
     <p class="contenido">Tercer párrafo con clase "contenido".</p>
 
     <p id="especial" class="contenido">Este párrafo tiene tanto la clase "contenido" como el id "especial".</p>
-
+    
+    <h2>¿Por qué no deberíamos repetir el id en varios elementos?</h2>
     <p>Un id es un identificador único y solo debería asignarse a un único elemento en toda la página HTML. Si se repite el mismo id en varios elementos, <br>
         el documento HTML deja de ser válido y los comportamientos del navegador pueden ser inconsistentes. <br>
         Al seleccionar un id con  CSS, el navegador generalmente seleccionará solo el primer elemento que encuentre con ese id, <br>
         lo que puede hacer que los estilos o scripts no se apliquen correctamente a otros elementos con el mismo id.
 </p>
+
+    <h2>¿Qué tiene más peso, un id o una clase en CSS?</h2>
     <p> En CSS, las reglas con id tienen mayor especificidad que las reglas aplicadas a través de clases. <br>
         Es decir, si un elemento tiene tanto una clase como un id, el estilo definido para el id sobrescribirá el estilo definido para la clase, <br>
         siempre y cuando ambos estilos modifiquen la misma propiedad. 

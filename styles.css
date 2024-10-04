@@ -8,7 +8,7 @@
 /* Estilos comunes para los párrafos usando la clase .texto */
 .texto {
     font-size: 16px;
-    color: #333; /* Gris oscuro */
+    color: ##FF1493; /* Gris oscuro */
     margin: 10px 0;
     line-height: 1.5;
 }
